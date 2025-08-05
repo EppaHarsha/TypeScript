@@ -1,0 +1,10 @@
+TypeScript (TS) is considered a programming language — specifically, a superset of JavaScript.
+
+It allows us to write the js in precide manner to reduce errors in run time
+
+The code written ts is converted to the js 
+
+Ts is about typesafety
+
+Ts is a development tool
+
