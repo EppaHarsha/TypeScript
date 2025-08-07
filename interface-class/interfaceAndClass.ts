@@ -46,4 +46,33 @@ class User5{
     }
 }
 
+//Private
+
+class User6{
+    private email:string
+    readonly name:string
+    constructor(email:string,name:string){
+        this.email=email;
+        this.name=name;
+    }
+
+    get userName():string{
+        return this.name;
+    }
+    set userEmail(email:string){ // no return type.void also
+        this.email="h@h.com"
+    }
+}
+
+const u4 = new User6("hh","d@hhh");
+// console.log(u4.email);  we cant access private variables out side the class and in JS we use #email 
+
+// u can also write like this to make code more concise
+
+// class User7{
+//     constructor(private email:string,
+//         public name:string
+//     )
+//     {}
+// }
 const u2 = new User5("h","h@h.com");
