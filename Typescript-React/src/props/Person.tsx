@@ -1,8 +1,10 @@
+import type { Name } from "./personNameType";
 
-type Name={
-  first:string
-  last:string
-}
+// Type can be also exported! 
+// type Name={
+//   first:string
+//   last:string
+// }
 type personName={
   name:Name
 }
